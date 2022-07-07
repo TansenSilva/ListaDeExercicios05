@@ -19,8 +19,8 @@ public class Pessoa {
     }
     public void envelhecer(){
         this.idade +=1;
-        if (idade<21){
-            altura = altura + 0.05;
+        if (this.idade<21){
+            this.altura = this.altura + 0.05;
         }
     }
     public void engordar(double peso) {
