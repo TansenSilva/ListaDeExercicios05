@@ -22,5 +22,16 @@ public class MainQuadrado {
         System.out.println("A área do quadrado é: ");
         quadrado1.calculoAreaDoQuadrado();
 
+    Quadrado quadrado2 = new Quadrado ();
+        System.out.println(quadrado2.getTamanhoDoLado());
+        System.out.println("Digite do valor do lado do quadrado: ");
+
+    quadrado2.setTamanhoDoLado(input.nextDouble());
+        System.out.println(quadrado2.getTamanhoDoLado());
+
+
+
     }
+
+
 }

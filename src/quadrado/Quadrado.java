@@ -10,6 +10,18 @@ public class Quadrado {
         this.tamanhoDoLado = tamanhoDoLado;
     }
 
+    public Quadrado(){
+
+    }
+
+    public double getTamanhoDoLado() {
+        return tamanhoDoLado;
+    }
+
+    public void setTamanhoDoLado(double tamanhoDoLado) {
+        this.tamanhoDoLado = tamanhoDoLado;
+    }
+
     public void mudarValorDoLado(){
         Scanner input = new Scanner(System.in);
         System.out.print("Digite o novo tamanho do Lado do Quadrado: ");
